@@ -1,0 +1,58 @@
+
+    span{
+      .animation(finger-1-animation-span, 2s, infinite, ease-out);
+    }
+    i{
+      .animation(finger-1-animation-i, 2s, infinite, ease-out);
+    }
+  }
+  .finger-2{
+    .animation(finger-2-animation, 2s, infinite, ease-out);
+    
+    span{
+      .animation(finger-2-animation-span, 2s, infinite, ease-out);
+    }
+    i{
+      .animation(finger-2-animation-i, 2s, infinite, ease-out);
+    }
+  }
+  .finger-3{
+    .animation(finger-3-animation, 2s, infinite, ease-out);
+
+    span{
+      .animation(finger-3-animation-span, 2s, infinite, ease-out);
+    }
+    i{
+      .animation(finger-3-animation-i, 2s, infinite, ease-out);
+    }
+  }
+  .finger-4{
+    .animation(finger-4-animation, 2s, infinite, ease-out);
+
+    span{
+      .animation(finger-4-animation-span, 2s, infinite, ease-out);
+    }
+    i{
+      .animation(finger-4-animation-i, 2s, infinite, ease-out);
+    }
+  }
+  .finger-item{
+    position:relative;
+    .square(100%);
+    .border-radius(6px 6px 8px 8px);
+    background:#fff;
+    
+    span{
+      position:absolute;
+      left:0;
+      top:0;
+      .size(100%, auto);
+      padding:5px 5px 0 5px;
+
+      &:before,
+      &:after{
+        content:'';
+        position:relative;
+        display:block;
+        margin:0 0 2px 0;
+        .size(100%, 2px);
